@@ -1,0 +1,14 @@
+flask
+flask-login
+flask-restful
+flask-cors
+flask_mongoengine
+redis
+flask-redis
+celery
+flask-mail
+gevent
+jinja2
+itsdangerous
+pytz
+click

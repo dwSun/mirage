@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <title>Mirage</title>
+    <link rel="stylesheet" type="text/css" href="node_modules/uikit/dist/css/uikit.gradient.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/uikit/dist/css/components/sticky.gradient.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/uikit/dist/css/components/notify.gradient.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/uikit/dist/css/components/progress.gradient.css">
+
+    <link rel="stylesheet" type="text/css" href="node_modules/animate.css/animate.css">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/uikit/dist/js/uikit.js"></script>
+    <script src="node_modules/uikit/dist/js/components/sticky.js"></script>
+    <script src="node_modules/uikit/dist/js/components/notify.js"></script>
+    <script src="node_modules/uikit/dist/js/components/pagination.js"></script>
+    <script src="node_modules/chart.js/dist/Chart.js"></script>
+    <script src="node_modules/underscore/underscore.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jsSHA/2.2.0/sha256.js"></script>
+    <style>
+    body{
+        height: 100%;
+        width: 100%;
+    }
+    .uk-grid {
+    margin-left: 0;
+    }
+    </style>
+    <script>
+        var SESID = ""+Math.round(new Date().getTime() / 1000);
+    </script>
+</head>
+
+<body>
+    <div id="app"></div>
+    <script src="dist/common.js"></script>
+    <script src="dist/vue.js"></script>
+    <script src="dist/vresouce.js"></script>
+    <script src="dist/vx.js"></script>
+    <script src="dist/vrouter.js"></script>
+    <script src="dist/main.js"></script>
+</body>
+
+</html>

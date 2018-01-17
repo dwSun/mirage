@@ -1,0 +1,17 @@
+mongo:
+  image: mongo
+  volumes:
+    - ./mongodb:/data/db
+  ports:
+    - 27017:27017
+  environment:
+    - storageEngine:wiredTiger
+
+mongo-express:
+  image: mongo-express
+  links:
+    - mongo:mongo
+  ports:
+    - 8081:8081
+
+

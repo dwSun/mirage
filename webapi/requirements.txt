@@ -1,0 +1,10 @@
+flask
+flask-login
+flask-restful
+flask-cors
+flask_mongoengine
+gevent
+jinja2
+itsdangerous
+pytz
+click
